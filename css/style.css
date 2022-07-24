@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    list-style-type: none;
+}
+body {
+    font-family: Tahoma;
+    font-size: 18px;
+}
+.title {
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:aqua;
+    text-align: center;
+}
+.search {
+    background: rgb(226, 248, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+}
+
+.search__input {
+    width:250px;
+    padding:8px 5px;
+    background-color: rgb(232, 255, 213);
+    font-size:18px;
+    color:brown;
+}
+
+.hide {
+    display: none;
+}
